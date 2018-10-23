@@ -10,7 +10,7 @@ lazy val akkaVersion = "2.5.17"
 fork in Test := true
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
+  "com.typesafe.akka" %% "akka-cluster" % akkaVersion, 
   "com.typesafe.akka" %% "akka-cluster-tools" % akkaVersion,
   "com.typesafe.akka" %% "akka-persistence" % akkaVersion,
   "org.iq80.leveldb" % "leveldb" % "0.7",
